@@ -1,0 +1,68 @@
+{
+  "name": "engram",
+  "version": "0.1.0",
+  "description": "Persistent memory layer for Claude AI. Drop-in context and history management for any Claude-powered application.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "bin": {
+    "engram-mcp": "dist/mcp/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "start:mcp": "node dist/mcp/server.js"
+  },
+  "keywords": [
+    "claude",
+    "anthropic",
+    "memory",
+    "mcp",
+    "context",
+    "ai",
+    "llm",
+    "persistent",
+    "conversation",
+    "history"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "@modelcontextprotocol/sdk": "^1.10.0",
+    "better-sqlite3": "^11.0.0",
+    "pg": "^8.13.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^20.17.0",
+    "@types/pg": "^8.11.11",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/engram"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/engram/issues"
+  }
+}
