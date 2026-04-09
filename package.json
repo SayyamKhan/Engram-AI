@@ -1,6 +1,6 @@
 {
   "name": "engram-ai",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Persistent memory layer for Claude AI. Drop-in context and history management for any Claude-powered application.",
   "type": "module",
   "main": "dist/index.js",
