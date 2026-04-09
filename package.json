@@ -1,5 +1,5 @@
 {
-  "name": "engram",
+  "name": "engram-ai",
   "version": "0.1.0",
   "description": "Persistent memory layer for Claude AI. Drop-in context and history management for any Claude-powered application.",
   "type": "module",
@@ -33,7 +33,7 @@
     "conversation",
     "history"
   ],
-  "author": "",
+  "author": "SayyamKhan",
   "license": "MIT",
   "engines": {
     "node": ">=20"
@@ -60,9 +60,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/engram"
+    "url": "https://github.com/SayyamKhan/Engram-AI"
   },
   "bugs": {
-    "url": "https://github.com/your-username/engram/issues"
+    "url": "https://github.com/SayyamKhan/Engram-AI/issues"
   }
 }
